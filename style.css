@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Protest Guerrilla";
+}
+
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?cs=srgb&dl=pexels-pixabay-235985.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 8px;
+}
+
+input [type="text"],
+select {
+    width: 100%;
+    border: 1px seagreen;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: beige;
+    outline: none;
+    box-shadow: 0 0 5px rosybrown;
+}
+
+.container{
+    background-color: mintcream;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: beige;
+    color: sandybrown;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition:background-color 0.3s ease, transform 0.2s ease;
+    align-self: center; 
+}
+
+button:hover {
+    background-color: antiquewhite;
+    transform: scale(1.05);
+}
